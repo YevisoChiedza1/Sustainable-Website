@@ -1,0 +1,458 @@
+/* NAVIGATION MENU*/
+
+.header-blue video{
+  position: absolute;
+  width:100%;
+  object-fit:cover;
+  height:750px;
+  
+}
+
+.header-blue{
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif; 
+  }
+  
+  @media (max-width:992px) {
+    .header-blue .navbar {
+      padding-top:1rem;
+      padding-bottom:1rem;
+    }
+
+    .header-blue video{
+      height:500px;
+    }
+    
+  }
+  
+   
+  
+    .container-n{
+      margin-left:5rem;
+    }
+  
+    
+    .header-blue .navbar {
+      background:transparent;
+      padding-top:.75rem;
+      padding-bottom:.75rem;
+      color:#fff;
+      border-radius:0;
+      box-shadow:none;
+      border:none;
+      text-align:center;
+      
+  
+    }
+    
+    
+    
+    .header-blue .navbar .navbar-brand {
+      font-weight:bold;
+      color:inherit;
+      
+  
+    }
+    
+   
+    .header-blue .navbar .navbar-collapse {
+      border-top:1px solid rgba(255,255,255,0.3);
+      margin-top:.5rem;
+      position:relative;
+    }
+    
+    @media (min-width:768px) {
+      .header-blue .navbar .navbar-collapse {
+        border-color:transparent;
+        margin:0;
+      }
+    }
+    
+    .header-blue .navbar .navbar-collapse span .login {
+      color:#d9d9d9;
+      margin-right:.5rem;
+      text-decoration:none;
+      position:relative;
+    }
+    
+    .header-blue .navbar .navbar-collapse span .login:hover {
+      color:#3e7c59;
+    }
+    
+    .header-blue .navbar .navbar-toggler {
+      border-color:rgba(255,255,255,0.3);
+    }
+    
+    .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+      background:none;
+    }
+    
+    .header-blue .navbar .navbar-nav a.active, .header-blue .navbar .navbar-nav > .show .dropdown-item {
+      background:none;
+      box-shadow:none;
+    }
+    
+    @media (min-width: 768px) {
+      .header-blue .navbar-nav .nav-link {
+        padding-left:.7rem;
+        padding-right:.7rem;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .header-blue .navbar-nav .nav-link {
+        padding-left:1.2rem;
+        padding-right:1.2rem;
+      }
+    }
+  
+   
+    .header-blue .navbar .navbar-nav > li > .dropdown-menu {
+      margin-top:-5px;
+      box-shadow:0 4px 8px rgba(0,0,0,.1);
+      background-color:#fff;
+      border-radius:12px;
+  
+    }
+    
+  
+    .header-blue .dropdown-item{
+      font-family: "Dawning of a New Day", cursive;
+      line-height: 2;
+   
+    }
+  
+  
+  
+    .header-blue .icon{
+      width:25px;
+      height:25px;
+    } 
+    .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
+      line-height:2;
+      color:#37434d;
+    }
+    
+    .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
+      background:#ebeff1;
+    }
+    
+    .header-blue .action-buttonh, .header-blue .action-buttonh:not(.disabled):active {
+      border:1px solid rgba(255,255,255,0.7);
+      border-radius:40px;
+      color:#ebeff1;
+      box-shadow:none;
+      text-shadow:none;
+      padding:.3rem .8rem;
+      background:transparent;
+      transition:background-color 0.25s;
+      outline:none;
+    }
+    
+    .header-blue .action-buttonh:hover {
+      color:#fff;
+    }
+    
+    .header-blue .navbar .form-inlineh label {
+      color:#d9d9d9;
+    }
+    
+    .header-blue .navbar .form-inlineh .search-field {
+      display:inline-block;
+      width:80%;
+      background:none;
+      border:none;
+      border-bottom:1px solid transparent;
+      border-radius:0;
+      color:#ccc;
+      box-shadow:none;
+      color:inherit;
+      transition:border-bottom-color 0.3s;
+    }
+    
+    .header-blue .navbar .form-inlineh .search-field:focus {
+      border-bottom:1px solid #ccc;
+    }
+    
+    .header-blue .hero {
+      margin-top:10px;
+      text-align:center;
+    }
+    
+    @media (min-width:768px) {
+      .header-blue .hero {
+        margin-top:60px;
+        text-align:left;
+      }
+    }
+    
+    .header-blue .hero h1 {
+        text-align:center;
+       
+        color:#fff;
+        font-size:60px;
+        margin-top:5px;
+        margin-bottom:15px;
+        font-weight:lighter;
+        
+       
+        line-height:1.4;
+      
+      
+        
+}
+
+/*GLOWING TEXT*/
+
+@keyframes glow {
+  from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #05361a, 0 0 30px #05361a, 0 0 40px #05361a, 0 0 50px #05361a, 0 0 60px #05361a, 0 0 70px #05361a;
+  }
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2a8c54, 0 0 40px #2a8c54, 0 0 50px #2a8c54, 0 0 60px #2a8c54, 0 0 70px #2a8c54, 0 0 80px #2a8c54;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+    
+    @media (min-width:992px) {
+      .header-blue .hero h1 {
+        margin-top:190px;
+        margin-bottom:24px;
+        line-height:1.2;
+      
+      }
+    }
+    
+    .header-blue .hero .type {
+      color:rgba(255,255,255,0.8);
+      font-size:23px;
+      margin-bottom:30px;
+      font-weight:600;
+      text-align:center;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+        
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+        animation: 
+            typing 4.0s steps(30, end),
+            blink-caret .5s step-end infinite;
+
+}
+    
+
+.container .home-intro{
+    height:auto;
+    width:600px;
+    background-color:#ffffff;
+    margin-left:650px;
+    padding-top:100px;
+
+} 
+
+.div-line{
+  background-color:#3e7c59;
+  height:3px;
+}
+
+.home-intro img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.home-intro h2{
+    text-align:center;
+    color:#063a1d;
+    font-weight:600;
+    
+}
+
+.home-intro h3{
+    text-align:center;
+    color: #3d3d3d;
+    font-size:15px;
+}
+    
+
+/*STYLING THE CONTAINER*/
+
+.col-heading{
+  float:left;
+  width:50%;
+  text-align:center;
+  padding-top:30px;
+}
+
+.row-heading{
+  content:" ";
+  clear:both;
+  display:table;
+  width:100%;
+  height:70px;
+  
+}
+
+.col-heading p{
+  font-weight:600;
+}
+
+
+/* ABOUT SGP*/
+
+/* #B2BEB*/
+
+.trending-c{
+ 
+  height:140px;
+  width:100%;
+}
+
+.trending{
+ 
+  background-color: #B2BEB2;
+  height:140px;
+  width:100%;
+}
+
+.h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 80px;
+ 
+}
+
+.h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+.container-c{
+  margin:auto;
+  width:60%;
+}
+
+.container-c .eats-1{
+  text-align:center;
+  font-size:20px;
+}
+
+.col-c{
+  float:left;
+  width:50%;
+}
+
+.col-c .container-col{
+  padding-top:80px;
+  margin:auto;
+  width:70%;
+}
+
+.container-col .h3{
+  color: #000;
+	font-size: 26px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	
+}
+
+.container-col p{
+  text-align:center;
+}
+
+
+
+
+
+
+
+
+
+.row-c{
+  content: " ";
+  clear:both;
+  display:table;
+}
+
+.col-c img{
+  width:100%;;
+  height:500px;
+}
+
+@media (max-width:992px) {
+  .col-c{
+    width:100%;
+  }
+  
+}
+
+/*COMPANY RATES*/
+
+.glow{
+ 
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.rates{
+  margin:auto;
+  width:70%;
+}
+
+.column-rates p{
+  text-align:center;
+}
+ 
+
+.column-rates{
+  float:left;
+  width:33%;
+}
+
+.row-rates:after{
+  content: " ";
+  clear:both;
+  display:table;
+}
+
+.column-rates img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+    
